@@ -1,0 +1,138 @@
+
+/* Jumbotron/Masthead Customizations */
+
+.jumbotron {
+	background: url('../img/congruent_outline.png') repeat center center;
+	color: #fff;
+	position: relative;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	margin-bottom: 0;
+	padding: 70px;
+}
+
+	.jumbotron h1 {
+		font-weight: bold;
+	}
+
+	.jumbotron p {
+		color: #edecea;
+		font-size: 18px;
+		line-height: 1.25;
+	}
+
+	.jumbotron section {
+		margin-left: 230px;
+	}
+
+/* Social Links */
+
+.social {
+	background-color: #f6f6f6;
+	border-bottom: 3px solid #ddd;
+	height: 80px;
+	text-align: center;
+	margin-bottom: 50px
+}
+
+	.social-links {
+		list-style: none;
+		margin-left: 0;
+		margin-bottom: 0;
+		padding-left: 0;
+	}
+
+	.social-links li {
+		display: inline-block;
+		line-height: 1;
+		*display: inline;
+		*zoom: 1;
+	}
+
+		.social-links li.linkedin {
+			border-bottom: 3px solid #76afd0;
+		}
+
+		.social-links li.twitter {
+			border-bottom: 3px solid #76afd0;
+		}
+
+		.social-links li.googleplus {
+			border-bottom: 3px solid rgb(230, 56, 23);
+		}
+
+		.social-links li.blog {
+			border-bottom: 3px solid #90a967;
+		}
+
+		.social-links li.github {
+			border-bottom: 3px solid #be594e;
+		}
+
+		.social-links li.keybase {
+			border-bottom: 3px solid rgb(255, 153, 0);
+		}
+
+	.social-links li a {
+		color: #666;
+		display: block;
+		font-size: 20px;
+		height: 20px;
+		padding: 30px 20px 30px 20px;
+	}
+
+		.social-links li a:hover {
+			text-decoration: none;
+		}
+
+		.social-links li:hover {
+			border-bottom: 3px solid #ddd;
+		}
+
+/* Footer */
+footer {
+	background: #f6f6f6;
+	border-top: 3px solid #e5e5e5;
+	color: #777;
+	margin: 80px 0 0 0;
+	padding: 60px 0;
+}
+
+
+/* Media Queries */
+@media (max-width: 978px) {
+	.jumbotron h1 {
+		font-size: 50px;
+	}
+
+
+	.social-links li.googleplus, .social-links li.twitter,  .social-links li.keybase {
+		display: none;
+	}
+
+}
+
+@media (max-width: 769px) {
+	body {
+		padding: 0;
+	}
+
+	.container {
+		padding: 0 20px 0 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	.masthead .btn {
+		display: block;
+		margin: 10px 0 0 0;
+	}
+
+	.container {
+		padding: 0 10px 0 10px;
+	}
+
+	.masthead .container .pull-right {
+		float: none;
+		text-align: center;
+	}
+}
