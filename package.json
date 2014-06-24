@@ -8,8 +8,7 @@
     "broccoli-static-compiler": "~0.1.4",
     "broccoli-clean-css": "~0.2.0",
     "broccoli-gzip": "~0.2.0",
-    "broccoli-htmlmin": "~0.2.0",
-    "rimraf": "~2.2.8"
+    "broccoli-htmlmin": "~0.2.0"
   },
   "scripts": {
     "build": "rm -rf dist/; broccoli build dist"
