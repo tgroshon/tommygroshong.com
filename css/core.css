@@ -1,4 +1,8 @@
 
+.t-pull-left {
+	float: left;
+}
+
 /* Jumbotron/Masthead Customizations */
 
 .jumbotron {
@@ -121,7 +125,17 @@ footer {
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 575px) {
+	div.img-container {
+		float: none;
+	}
+
+	.jumbotron section {
+		margin: 0;
+	}
+}
+
+@media (max-width: 440px) {
 	.masthead .btn {
 		display: block;
 		margin: 10px 0 0 0;
@@ -129,6 +143,10 @@ footer {
 
 	.container {
 		padding: 0 10px 0 10px;
+	}
+
+	.social-links li.github {
+		display: none;
 	}
 
 	.masthead .container .pull-right {
