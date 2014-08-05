@@ -8,10 +8,12 @@
     "broccoli-static-compiler": "~0.1.4",
     "broccoli-clean-css": "~0.2.0",
     "broccoli-gzip": "~0.2.0",
-    "broccoli-htmlmin": "~0.2.0"
+    "broccoli-htmlmin": "~0.2.0",
+    "street": "~0.6.0",
+    "grunt": "~0.4.5"
   },
   "scripts": {
-    "build": "rm -rf dist/; broccoli build dist"
+    "build": "rm -rf dist/ && broccoli build dist"
   },
   "author": "tgroshon",
   "license": "MIT"
