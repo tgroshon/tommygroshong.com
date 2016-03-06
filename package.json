@@ -10,11 +10,11 @@
     "broccoli-gzip": "~0.2.0",
     "broccoli-htmlmin": "~0.2.0",
     "broccoli-static-compiler": "~0.1.4",
-    "grunt": "~0.4.5",
     "street": "~0.6.0"
   },
   "scripts": {
-    "build": "rm -rf dist/ && broccoli build dist"
+    "build": "rm -rf dist/ && broccoli build dist",
+    "deploy": "street -e -v dist/"
   },
   "author": "tgroshon",
   "license": "MIT"
