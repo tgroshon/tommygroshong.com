@@ -1,0 +1,61 @@
+baseurl = "https://tommygroshong.com/"
+title = "TommyGroshong.com"
+theme = "whiteplain"
+languageCode = "en"
+pygmentsCodeFences = true
+disqusShortname = "tommygroshong"
+googleAnalytics = "UA-47053669-1"
+
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; Copyright 2019 Thomas Groshong Jr"
+
+[params]
+  # whether to use CDN or local file for fontawesome
+  #useCDN = false
+  # whether to include external sharing scripts and icons for twitter, facebook and co.
+  #showShareIcons = false
+  # Date format
+  dateFormat = "January 2, 2006"
+
+[params.author]
+  name = "Tommy Groshong"
+  gravatar = "3ef06d69d25df6c31fb095cfc6b08178"
+
+  twitter = "tgroshon"
+  linkedin = "thomas-groshong-2b23aa28"
+  github = "tgroshon"
+  stackoverflow = "2631962"
+  email = "tom@groshong.software"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[[menu.main]]
+  name = "Categories"
+  identifier = "categories"
+  url = "/categories/"
+  weight = 1
+[[menu.main]]
+  name = "Tags"
+  identifier = "tags"
+  url = "/tags/"
+  weight = 2
+[[menu.main]]
+  name = "Archives"
+  identifier = "archives"
+  url = "/archives/"
+  weight = 3
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+  weight = 1
+
+# Footer Menu
+[[menu.footer]]
+  name = "About"
+  weight = 1
+  identifier = "about"
+  url = "/about/"
