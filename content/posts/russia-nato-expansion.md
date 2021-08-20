@@ -91,7 +91,7 @@ Now who did Yeltsin pick as his successor? ... **Vladimir Putin**.
 **2014**: Revolution in Ukraine, followed by NATO acceptance of Ukraine as an
 aspirant NATO member.
 
-**May 2020**:
+**2020**:
 
 > 05 May 2020
 >
@@ -102,11 +102,13 @@ aspirant NATO member.
 
 If you aren't familiar with the geography of that part of the world, it looks like this:
 
-![Europe Political Map](img/europe_political_map.jpeg)
+![Europe Political Map](/img/europe_political_map.jpeg)
 
 Ukraine and Georgia are those countries on the southern borders of Russia.
 
-**Today**: Why has Vladimir Putin not embraced relations with the US/EU?
+## The Big Question
+
+Why has Vladimir Putin not embraced relations with the west?
 
 ## References
 
