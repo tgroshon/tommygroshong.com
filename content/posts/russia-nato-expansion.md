@@ -3,8 +3,8 @@ title: "Russia and the NATO Expansion"
 date: 2021-08-20T18:32:37-04:00
 ---
 
-A little story I want to tell about Russian Federation and the expansion of NATO
-under the direction of the US Government.
+A little story I want to tell about the Russian Federation and the expansion of
+NATO under the direction of the US Government.
 
 **1991**: the Soviet Union dissolution was largely complete. All the former members
 of the Union were now their own nation states and several of the more radically
