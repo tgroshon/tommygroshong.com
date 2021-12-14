@@ -1,8 +1,7 @@
 ---
 title: The Doom Principle of Programming
-date: 2021-12-13
+date: 2021-12-14
 description: "The Doom Principle: some general patterns will somehow, sometime, inevitably lead to doom, always."
-draft: true
 categories:
   - Programming
 ---
@@ -41,10 +40,26 @@ Consider this generalization:
 
 > "Some general patterns will somehow, sometime, inevitably lead to doom, always."
 
+There's some subtly here. As I see it, the primary risk of such a Doomed Pattern
+is not that it will fail in every use case, but rather that the pattern will
+eventually and inevitably be at the root of one or more spectacular failures.
+
+The Doom Principle sits at the nexus of "Code Smells" and "Tech Debt". The
+reason we care about identifying "smelly code" is because we're implicitly
+looking for a Doomed Pattern. The point of code smells is being able to identify
+code that _could_ be problematic under the right circumstances, but isn't
+necessarily bad, and could be fine in a particular case. In this way, a code
+smell is broader and a little more superficial. A Doomed Pattern on the other
+hand operates more at the level of "if there's smoke there's fire" or "rotting
+fish smell equals a rotting fish".
+
 I look at the Java ecosystem and interpret the world as follows:
 
 > **Java**: "We have shipped this awesome ecosystem of tools to make dynamic code
 > discovery, loading, and execution across networks and organizations easy!"
 >
-> **Java, the next day**: "We have identified some remote code execution
+> **Java, every day since**: "We have identified some remote code execution
 > vulnerabilities that need patched."
+
+After some more thinking, I would love to consider some other examples of Doomed
+Patterns. Future Tommy has a job to do.
