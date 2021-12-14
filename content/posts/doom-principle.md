@@ -1,7 +1,7 @@
 ---
-title: The Doom Principle of Programming
+title: Is there a Generic "Doom Principle" of Programming Patterns?
 date: 2021-12-14
-description: "The Doom Principle: some general patterns will somehow, sometime, inevitably lead to doom, always."
+description: "The Doom Principle: some patterns will somehow, sometime, inevitably lead to doom, always. So what are they?  That's the million dollar question."
 categories:
   - Programming
 ---
@@ -38,7 +38,7 @@ applicable to most programming, not just cryptography.
 
 Consider this generalization:
 
-> "Some general patterns will somehow, sometime, inevitably lead to doom, always."
+> "Some patterns will somehow, sometime, inevitably lead to doom, always."
 
 There's some subtly here. As I see it, the primary risk of such a Doomed Pattern
 is not that it will fail in every use case, but rather that the pattern will
