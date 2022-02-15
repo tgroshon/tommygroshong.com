@@ -39,7 +39,9 @@ former Soviet nations can join without becoming full members.
 > re-election bid in 1996 and telling the Russians repeatedly that the future
 > European security system would include, not exclude, Russia.
 >
-> - https://nsarchive.gwu.edu/briefing-book/russia-programs/2018-03-16/nato-expansion-what-yeltsin-heard
+> - ["Nato Expansion: What Yeltsin
+>   Heard"](https://nsarchive.gwu.edu/briefing-book/russia-programs/2018-03-16/nato-expansion-what-yeltsin-heard)
+>   declassified meeting documents between US officials and President Yeltsin
 
 **1994**:
 
@@ -151,7 +153,7 @@ Estonia and Latvia border the Russian mainland. Lithuania borders the Russian ad
 > the myth of “betrayal of the West”, blaming NATO nations for being the primary
 > cause of the current state of NATO-Russia relations.
 >
-> - https://pism.pl/publikacje/Documents_Talk_NATORUSSIA_Relations_after_the_Cold_War
+> - ["Documents Talk: NATO-Russia Relations After the Cold War"](https://pism.pl/publikacje/Documents_Talk_NATORUSSIA_Relations_after_the_Cold_War)
 
 **2009**:
 
@@ -205,7 +207,8 @@ Three countries are upgraded to "aspiring members" of NATO:
 > Currently, three partner countries have declared their aspirations to NATO
 > membership: Bosnia and Herzegovina, Georgia and Ukraine.
 >
-> - https://www.nato.int/cps/en/natolive/topics_49212.htm
+> - ["Enlargement"](https://www.nato.int/cps/en/natolive/topics_49212.htm)
+>   article on the NATO website
 
 Ukraine and Georgia are those countries on the southern borders of Russia.
 
