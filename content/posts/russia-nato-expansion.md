@@ -111,7 +111,7 @@ Eastern borders that Nazi Germany had before invading the Soviet Union in 1941.
 The Kosovo War in Serbia begins; lots of ethnic cleansing and other war
 crimes; super nasty stuff.
 
-For background, Serbia has been a pseudo-protectorate of Russia for a literally
+For background, Serbia has been a pseudo-protectorate of Russia for literally
 centuries with Russians and Serbians sharing many ethnic and cultural ties.
 Remember, *World War I* was primarily kicked off when (a) the Austro-Hungarian
 Empire invaded Serbia in response to Serbian assassination of the Austrian
@@ -122,8 +122,9 @@ sides got involved and WHAMMY ... The War to End All Wars (or maybe not).
 
 In March, NATO starts launching airstrikes in Serbia and deploying peace keeping
 forces. All without talking to Russia. Like at all. To put in perspective,
-imagine Russia unilaterally attacking Guatemala or Panama. The Duma is once
-again pissed off, and Yeltsin looks like an even bigger tool.
+imagine Russia unilaterally bombing Guatemala or Panama without even mentioning
+it to the US. The Duma is once again pissed off, and Yeltsin looks like an even
+bigger tool.
 
 Soon after, President Boris Yeltsin resigns in disgrace as President of Russia.
 In Russia, many still consider Yeltsin a *puppet of the west*.
