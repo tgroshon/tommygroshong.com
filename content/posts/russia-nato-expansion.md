@@ -2,6 +2,8 @@
 title: "Russia and the NATO Expansion"
 date: 2021-08-20T18:32:37-04:00
 ---
+*UPDATED Feb 2022 for additional links and text updates for clarity.*
+
 A little story I want to tell about the Russian Federation and the expansion of
 NATO under the direction of the US Government.
 
@@ -226,7 +228,7 @@ NATO Secretary General makes official visits to Finland.
 
 **2022**:
 
-Western nations publicly float the possibilties of Finland and Sweden joining NATO.
+Western media and government officials publicly discuss the possibilties of Finland and Sweden joining NATO.
 
 ## The Big Question
 
