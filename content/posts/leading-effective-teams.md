@@ -250,11 +250,11 @@ on the data being clean when it goes to the backend because so many ways exist
 to bypass your client. Git hooks are the same way. They always make git
 interactions slower, and dear gawd, why would we punish developers for making
 commits when it's an objectively good practice for developers to commit small
-changes often; a pre-commit hook running and Node.js tool is guaranteed to make
-that a non-starter. So git hooks always have a cost, but you can't rely on their
-benefit because it's trivial to purposely or accidentally disable the git hook
-locally. In the end, if you want to be sure, you always have to run your
-enforcement in CI anyways.
+changes often; a pre-commit hook running any Node.js tool is guaranteed to make
+that good behavior painful. Again, think of incentives. So, git hooks always have
+a cost, but you can't rely on their benefit because it's trivial to purposely or
+accidentally disable the git hook locally. In the end, if you want to be sure,
+you always have to run your enforcement in CI anyways.
 
 Fail the CI build if a PR (a) fails tests, (b) doesn't pass prettier formatting,
 (c) fails linting, or (d) fails type-checking.
@@ -304,6 +304,8 @@ and incorporating feedback into the process. I have some pointers about parts of
 the project management process that are often overlooked, regardless of the
 methodology you're using.
 
+#### Short Iterations
+
 First, choose the shortest iteration/sprint length that the team and
 organization can handle. If you find sprint planning long and hard, or have
 difficulty planning work for the last week of a sprint, your sprint might be too
@@ -331,6 +333,8 @@ destroys the concept of sprint, and I'm not fully sold on that outside of
 special case scenarios. I find value in organizing work into finite iterations,
 with defined and periodic start and end times, with clear commitments, and
 standardized touch-points before, during and after.
+
+#### Control WIP
 
 Second, control work in progress (WIP). It's not good for engineers to have
 multiple tickets "In progress" at the same time. Having a pile up of tickets
