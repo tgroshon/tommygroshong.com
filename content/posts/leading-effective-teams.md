@@ -164,7 +164,7 @@ an opportunity to blamelessy redirect the conversation "the team rule is to have
 these discussions in the team channel, so if you want to continue this
 conversation, we will have it there". I encourage my team, and lead by example,
 to copy-paste the DM convo into the team-chat and continue the discussion in a
-thread there". When intentions are good, this can be done effortlessly and
+thread there. When intentions are good, this can be done effortlessly and
 blamelessly. When intentions are bad, this has a desirable chilling effect on
 shitty, underhanded, and passive-aggressive comments.
 
