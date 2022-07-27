@@ -35,15 +35,16 @@ beautiful defect-free application that nobody needs or wants.
 As much as we'd like to take credit for those first two attributes, often the
 credit really lies with the designers and product managers exercising experience
 and judgment while working tirelessly to observe customer behavior and collect
-feedback.
+feedback; which they then communicate to us. Engineers are usually downstream
+the the *Solution* and *Design* process.
 
-Does that mean we ignore *Solution* and *Design*? God forbid. Because so much of
-that work happens outside of our view, it represents a huge risk of
-miscommunication and failed hand-offs. One of the most important aspects in
+Does that mean we ignore *Solution* and *Design* as an external concern? God forbid. 
+Because so much of that work happens outside of our view, it represents a huge risk
+of miscommunication and failed hand-offs. One of the most important aspects in
 Agile project management is trying to elevate and streamline communication and
 coordination between Engineering and other teams. Building proactive and
-reactive mechanisms into your process for improving these things is crucial to a
-successful team.
+reactive mechanisms into your process for improving cooridination is crucial to a
+successful team and good software.
 
 ## Quality and Delivery: What we do control
 
@@ -59,10 +60,10 @@ but practical reality has something else to say:
 
 Most applications aren't solving important or unique enough problems to get away
 with all that much. This is especially true in consumer software; less true in
-business software, but the gap between business and consumer is closing each
-year. In this way, competition is doing exactly what it is advertised to do:
-competition is driving down customer tolerance for poor quality and the length
-of time they are willing to tolerate it.
+business software, but the gap between business and consumer software is closing
+each year. In this way, competition is doing exactly what a market enthusiast would
+expect: competition is driving down customer tolerance for poor quality and the
+length of time they are willing to tolerate it.
 
 ### Quality and it's nuances
 
@@ -73,17 +74,18 @@ choose to block all work until absolutely positive that it's bug and defect
 free. It means that the people building the app should set a standard of what is
 and isn't acceptable quality in their application, and stick to it. In the same
 way manufactured parts have acceptable tolerances and spec-compliant variation,
-so too can software have it's **WONTFIX** bugs and put off performance
-improvements until more data is available.
+so too can software have it's **WONTFIX** bugs and put off certain performance
+improvements because the current behavior is _good enough_.
 
 
 Often, when Engineers talk *Quality* they think of bugs, but they do not always
 think of security vulnerabilities and poor performance. These are also defects
 and addressing them is fundamental to *Quality*.
 
-*Quality* in a software application can be improved by (a) better discovery
-mechanisms for defects and (b) increasing the standard (lower the threshold of
-defect toleration).
+*Quality* in a software application can be improved by (a) better defect discovery
+mechanisms and (b) increasing the standard (i.e. lowering the threshold of tolerable 
+defects). Better discovery often involves better reporting; chances are good that most
+defects have been discovered by somebody
 
 In some project management interpretations, *Quality* is considered to be one of
 a project's available _interrelated constraint levers_ with the big 3: time, 
@@ -95,12 +97,13 @@ a foolish notion and Software Engineers (and especially their managers), should
 expunge it from their brains so fast that it dislodges all the neighboring bad
 ideas that nested nearby.
 
-You don't ship a feature you know is broken, it will just upset your users when
-they realize it doesn't work. You cut the broken feature from the release until
-it works; i.e. reduce the scope. You don't even ship a 1/2 broken feature.
-Instead, you cut the parts that don't work and ship only the 1/2 that does work;
+Don't ship a feature you know is broken, it will just upset your users when
+they realize it doesn't work. Instead, cut the broken feature from the release until
+it works; i.e. reduce the scope. Don't ship a 1/2 broken feature. Instead, you cut 
+the parts that don't work and ship only the 1/2 that does work;
 i.e. reduce the scope. Ideas that cutting *Quality* can be advantageous for
-short-term gain is ridiculous; what you really want is to cut scope.
+short-term scope, time, or resource gain are ridiculous. When *Quality* is on the table,
+the lever you should be adjusting is scope.
 
 
 ### Delivery: The Magic Unicorn
@@ -139,8 +142,8 @@ Second, testing. Formal testing is certainly one way to discover bugs and
 defects. Manual testing is the prime way to do this because of it's looser and
 often exploratory nature. Automated testing on the other hand will only find
 problems that the Engineer was able to divine through pseudo-precognitive
-abilities. For this reason, automated tests can be a useful but lagging tool for
-*Quality*.
+abilities. For this reason, automated tests can be an occasionally useful tool 
+for *Quality* but it will always be lagging, which limits it's utility.
 
 The tenants of Test Driven Development (TDD) tells us that there's a _difference
 in kind_ between "testing for defects" and "testing to drive code design". They
@@ -149,7 +152,7 @@ similar code. Unit tests in TDD are valuable not because they catch defects, but
 because of *__when__* they can catch defects: in a tight feedback loop of the
 development process at the moment of the pertinent change. Because they are used
 this way, unit tests can enable API experimentation as the Engineer receives
-immediate feedback while taking the viewpoint of the consumer of his API, rather
+immediate feedback while taking the viewpoint of the consumer of the API, rather
 than only as it's author.
 
 Next question: what makes well-designed code valuable? We can attack the same
@@ -168,18 +171,18 @@ for "proveable", but people have designed entire programming languages chasing
 that mythical sasquatch (and they usually only have blurry pictures to show for
 it). Generally, these tend to be subjective things that Engineers *feel* about
 their code base. They also have very weak connections to the objective
-measurements of *Quality*, which are regardless of an Engineers feelings about
-their code base. (I've never met a Senior Engineer who could keep a straight
+measurements of *Quality*, which are independent of an Engineer's feelings about
+their code base. I've never met a Senior Engineer who could keep a straight
 place while claiming their application's **Superior Architecture** is why their
-code base is bug-free.) These things do however have incredibly strong
+code base is bug-free. These qualities do however have incredibly strong
 connections to the speed and ease of development. That's *Delivery*, baby! We
 care about software design so that we can easily and quickly deliver predictable
 changes to the code.
 
 Now, I have taken a bit of an erroneous logical stance which I'll make a
 handwavy attempt at rectifying. I've hinted (without explicitly stating) that
-*Delivery* can't be objectively measured. That's not true. *Delivery* is
-arguably equal or easier to objectively measure than *Quality*. The plucky
+*Delivery* can't be objectively measured. That's untrue. *Delivery* is
+just as straightforward to objectively measure as *Quality*. The plucky
 Engineering Manager or Scrum Master has an array of metrics available to measure
 delivery. Here's just a few:
 
@@ -188,18 +191,23 @@ delivery. Here's just a few:
 - Cycle time by developer
 - Downtime during deployment
 
-Objective measurements of *Delivery*. My favorite is "lead time to production"
-i.e. "length of time between when a feature is requested to when it's available
-in production". If *lead time* for the average task on your team is low,
-*Delivery* is probably doing very well.
+My favorite is "lead time to production" i.e. "length of time between when a 
+feature is requested and when it's available in production". If *lead time* for 
+the average task on your team is very low (e.g. small number of days), *Delivery* 
+is probably doing very well.
 
 But, it's still interesting that while both *Delivery* and *Quality* have
-objective measurements, it's *Delivery* that is primarily driven by subjective
+objective measurements, it's *Delivery* that is primarily driven by underlying subjective
 attributes. You might be able to argue that *Quality* is as well, but you would
 have to argue that there's strong subjectivity in the classification of a bug or
 defect, and while that's not a ridiculous stance, I don't think it's
 particularly strong. Software defects are like pornography; hard to define, but
-you know them when you see them.
+you know them when you see them. Well-designed code on the other hand is highly 
+context dependent and directly tied to the subjective interpretation of the team
+working on that system; what may be easily maintainable for one group of engineers
+may be unworkable for another group. Human brains don't have identical preferences
+for patterns, so we should *expect* engineers to come up with different patterned
+approaches.
 
 ## Conclusion
 
