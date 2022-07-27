@@ -42,7 +42,48 @@ to compare against.
 
 In this way, people are the same. To get clear improvement, begin by identifying
 a relevant metric, and then tailor solutions to improve that metric. This is
-true for individuals as well as teams.
+true for individuals as well as teams. Do you think the team could get more done
+in a sprint? Measure velocity, report on it, follow-up on it, talk about it as a
+team. Identify confounding variables and metrics within sprint velocity that may
+contribute to pulling the final velocity result down:
+
+  - Are engineers (especially the most experienced ones) spending too much time in meetings?
+    + Cut and combine meetings
+    + Require all meetings to have an agenda
+    + Pair invite lists down to the most essential particpants, and mark everyone else as optional
+  - Are task and story estimates routinely too low?
+    + Ensure tasks are well-defined at the time they're estimated with an explicit description of it's scope
+    + Ensure there is a shared definition and standard for estimation; perhaps different people
+      include or exclude different parts of the development process when estimating
+    + Ensure the people executing a task are the ones estimating it
+  - Are engineers spending a lot of time blocked on tasks?
+    + Identify common blockers
+    + Create a psychologically-safe, blame-free environment where blockers can be freely discussed
+    + Never skip sprint retrospectives; use them to identify action items to address systemic blockers
+    + Clarify an explicit *Blocker Escalation Process* so that engineers know how and when to raise issues
+    + Focus daily standup meetings on identifying and resolving blockers and questions rather than rote status updates
+ 
+The goal is to identify something that could be better, find a metric that
+measures it, and then dig into the behavior to discover the underlying behaviors
+that effect that metric.
+
+Note of caution: you get what you measure. Metrics are a double-edged blade,
+cutting in both directions. When you put emphasis on a metric, you are putting
+your thumb on the scale of incentives, and as any economist knows, incentive
+manipulation is tricksy business with a level of unpredictability. Humans are
+really good at gaming the system, engineers doubly so. And they often don't do
+it maliciously or even consciously. Be on the lookout for the potential that
+emphasizing some metric may be driving behaviors you don't actually want.
+
+A light touch is the most preferable way to adjust incentives unless you're
+absolutely sure of the risk-reward tradeoff of doubling down on some metric.
+Tying metric behavior to compensation is the opposite of light touch, and if
+you've ever been involved in a Sales floor, that is blatantly obvious. Remember,
+sales teams get away with tying all their metrics to compensation because they
+are very comfortable with firing low performers based on the metrics they
+identify.  Are you confident enough in your metrics to fire a team member over
+them?  Is the cost of finding and onboarding a new engineer the same as a new
+salesperson? In my experience, "no" is usually the answer.
 
 ### Cultivate collaboration
 
@@ -55,7 +96,8 @@ others.
 
 At the same time, your team is at constant risk of *siloization* as engineers
 become more knowledgeable in some subsystem or skilled with a certain set of
-tactical approaches. Engineer brains often turn inward as they get mentally comfortable.
+tactical approaches. Engineer brains often turn inward as they get mentally
+comfortable.
 
 #### Pair Programming
 
@@ -72,7 +114,7 @@ minutes or cumulative weekly targets of 2-3 hours can be a good starting point.
 Also, having a rule similar to "pair with at least N different people" can be
 good to introduce some variety into the pool, and break up that one friend group
 that you would easily believe spends 2 hours a day "pairing" exclusively with
-each other where they just bullshit about their amazing Pokemon' collection
+each other where they just gab about their amazing Pokemon' collection
 nonstop.
 
 #### Cut the DMs
