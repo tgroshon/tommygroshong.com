@@ -129,9 +129,44 @@ others do. If important decisions were made or information exchanged relevant to
 future project work, there's a very good chance it will need to be communicated
 to other team members in the future and then reiterated all over again.
 
-Encourage your team to think this way of considering their message and asking
-themselves if the team would possible benefit from visibility into the
-conversation. More often than not, the answer ends up being "yes".
+Encourage your team to think this way about communication. Consider each new
+message thread and ask yourself if the team would possibly benefit from
+visibility into that conversation. More often than not, the answer ends up being
+"yes".
+
+My goto approach is to have two channels per-team: one public, one private. The
+public channel is where stakeholders and other teams interact with this team.
+The private channel is scoped to only the team members to create a comfortable
+space for them to use team understood technical or project jargon, brainstorm
+ideas that aren't ready for external adoption or follow-up, and generally
+experience togetherness and companionship as a team. This is the channel for all
+your cat memes where you don't have to worry about the boss judging your
+comedic tastes. 
+
+Within these two channels, all project and team coordination occurs. Need to ask
+a specific team member a question about a ticket or some React Component?
+Mention them in private chat and start a threaded conversation. In this way,
+other team members have the opportunity to jump in or to simply be edified by
+just reading the discussion. Do you start that question in public or private
+chat? That decision is more nuanced, but generally breaks down to whether the
+question is fundamentally about technical implementation or the problem domain.
+If technical: private team chat. If problem domain, public chat where the
+stakeholders (i.e. domain experts) can see and optionally become involved.
+
+I've also found this practice to be a good way to decrease or prevent altogether
+negative or abusive communications, which usually rely on happening in private
+chats and DMs. A bad actor on the team has a hard time (a) acting on abusive
+tendencies and (b) hiding it, so this approach both reduces harm and speeds up
+discovery. Having a team-wide policy on this "all convos in team channel"
+approach also provides an additional protective tool to potential victims: if
+someone slides into your DMs with inappropriate or negative comments, you have
+an opportunity to blamelessy redirect the conversation "the team rule is to have
+these discussions in the team channel, so if you want to continue this
+conversation, we will have it there". I encourage my team, and lead by example,
+to copy-paste the DM convo into the team-chat and continue the discussion in a
+thread there". When intentions are good, this can be done effortlessly and
+blamelessly. When intentions are bad, this has a desirable chilling effect on
+shitty, underhanded, and passive-aggressive comments.
 
 ### Invest in Testing
 
