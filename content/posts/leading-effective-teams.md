@@ -50,7 +50,7 @@ contribute to pulling the final velocity result down:
   - Are engineers (especially the most experienced ones) spending too much time in meetings?
     + Cut and combine meetings
     + Require all meetings to have an agenda
-    + Pair invite lists down to the most essential particpants, and mark everyone else as optional
+    + Pare invite lists down to the most essential particpants, and mark everyone else as optional
   - Are task and story estimates routinely too low?
     + Ensure tasks are well-defined at the time they're estimated with an explicit description of it's scope
     + Ensure there is a shared definition and standard for estimation; perhaps different people
