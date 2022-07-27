@@ -181,7 +181,7 @@ Perspective"](https://tommygroshong.com/posts/engineering-perspective-on-good-so
 > because of *__when__* they can catch defects: in a tight feedback loop of the
 > development process at the moment of the pertinent change. Because they are used
 > this way, unit tests can enable API experimentation as the Engineer receives
-> immediate feedback while taking the viewpoint of the consumer of his API, rather
+> immediate feedback while taking the viewpoint of the consumer of the API, rather
 > than only as it's author.
 
 First rule of testing in React: component tests aren't unit tests, they're
