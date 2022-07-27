@@ -86,9 +86,9 @@ mechanisms for defects and (b) increasing the standard (lower the threshold of
 defect toleration).
 
 In some project management interpretations, *Quality* is considered to be one of
-a project's available _interrelated constraint levers_: time, resources, and
-scope. Adjust one, and the others are affected. Increase resources, and you can
-accomplish more project scope, or do the same scope in more time. Lower the
+a project's available _interrelated constraint levers_ with the big 3: time, 
+resources, and scope. Adjust one, and the others are affected. Increase resources, and you can
+accomplish more project scope, or do the same scope in less time. Lower the
 scope, you can also lower resources or lower the time required. But can you
 lower *Quality* and cause time, resources, or scope to change? Hell no. This is
 a foolish notion and Software Engineers (and especially their managers), should
