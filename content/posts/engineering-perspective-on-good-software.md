@@ -88,14 +88,14 @@ defects). Better discovery often involves better reporting; chances are good tha
 defects have been discovered by somebody
 
 In some project management interpretations, *Quality* is considered to be one of
-a project's available _interrelated constraint levers_ with the big 3: time, 
-resources, and scope. Adjust one, and the others are affected. Increase resources, and you can
-accomplish more project scope, or do the same scope in less time. Lower the
-scope, you can also lower resources or lower the time required. But can you
-lower *Quality* and cause time, resources, or scope to change? Hell no. This is
-a foolish notion and Software Engineers (and especially their managers), should
-expunge it from their brains so fast that it dislodges all the neighboring bad
-ideas that nested nearby.
+a project's available _interrelated constraint levers_ with the big 3: time,
+resources, and scope. Adjust one, and the others are affected. Increase
+resources, and you can accomplish more project scope, or do the same scope in
+less time. Lower the scope, you can also lower resources or lower the time
+required. But can you lower *Quality* and cause time, resources, or scope to
+change? Hell no. This is a foolish notion and Software Engineers (and especially
+their managers), should expunge it from their brains so fast that it dislodges
+all the neighboring bad ideas that nested nearby.
 
 Don't ship a feature you know is broken, it will just upset your users when
 they realize it doesn't work. Instead, cut the broken feature from the release until
@@ -197,17 +197,17 @@ the average task on your team is very low (e.g. small number of days), *Delivery
 is probably doing very well.
 
 But, it's still interesting that while both *Delivery* and *Quality* have
-objective measurements, it's *Delivery* that is primarily driven by underlying subjective
-attributes. You might be able to argue that *Quality* is as well, but you would
-have to argue that there's strong subjectivity in the classification of a bug or
-defect, and while that's not a ridiculous stance, I don't think it's
+objective measurements, it's *Delivery* that is primarily driven by underlying
+subjective attributes. You might be able to argue that *Quality* is as well, but
+you would have to argue that there's strong subjectivity in the classification
+of a bug or defect, and while that's not a ridiculous stance, I don't think it's
 particularly strong. Software defects are like pornography; hard to define, but
-you know them when you see them. Well-designed code on the other hand is highly 
+you know them when you see them. Well-designed code on the other hand is highly
 context dependent and directly tied to the subjective interpretation of the team
-working on that system; what may be easily maintainable for one group of engineers
-may be unworkable for another group. Human brains don't have identical preferences
-for patterns, so we should *expect* engineers to come up with different patterned
-approaches.
+working on that system; what may be easily maintainable for one group of
+engineers may be unworkable for another group. Human brains don't have identical
+preferences for patterns, so we should *expect* engineers to come up with
+different patterned approaches.
 
 ## Conclusion
 
