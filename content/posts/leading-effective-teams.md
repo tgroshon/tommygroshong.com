@@ -25,7 +25,7 @@ where I analyze the things that make an Application "good".
 2. Cultivate collaboration
 3. Invest in testing
 4. Enrich the developer experience
-5. Agile project management
+5. Manage projects with agility 
 6. Regulate tool adoption
 
 ### Evaluate performance
@@ -289,7 +289,7 @@ for every merge to your main trunk. Just do it. The feedback of having an
 automatic deploy is hugely beneficial to the engineering team and also provides
 a natural way to get immediate feedback from external stakeholders.
 
-### Agile project management
+### Manage projects with agility (aka Agile Project Management)
 
 In my career, I've been on highly successful Scrum teams, Kanban teams, Extreme
 Programming (XP; my fav) teams, and even once ... gasp ... a _waterfall team_.
@@ -317,9 +317,11 @@ with the external rate of change.
 I've found one (1) week to be the Gold Standard iteration length. It's short
 enough that you almost never have to interrupt an iteration for some
 high-priority change because the next sprint is only a few days away. It's long
-enough to let you do meaty things. It's really easy to be accurate about what
-tasks can and can't get done in one week. And it's really easy to capacity plan
-for time-off and holidays.
+enough to let you do meaty things. Accurately forecasting which tasks can be
+done in one week is much easier than multi-week. If a task is big enough that
+it's expected to take longer than a week, it almost certainly needs to be broken
+down further. As well, capacity planning for time-off and holidays is very easy
+when looking at just one week.
 
 The key, practical difficulty in implementing a one week sprint is that a team
 has to be *really* effective at the sprint planning (start) and retrospective
@@ -340,14 +342,17 @@ Second, control work in progress (WIP). It's not good for engineers to have
 multiple tickets "In progress" at the same time. Having a pile up of tickets
 waiting for code review (or QA review, or product review) also represents a
 significant risk. The goal is to expedite tasks through the process as quickly
-as possible. Key to that is avoiding (a) context switching and (b) re-work.
+as possible to your defined _Done_ state (ideally, "Done" means "in front of
+users"). Key to expediting work is avoiding (a) context switching and (b)
+re-work.
 
 Context switching most often happens when engineers move on too quickly from
 task transitions to picking new tasks. They forget that "In review" is also WIP,
 just like "In progress". Usually, it's better to wait before picking up your
 next task, so that you can be unencumbered while the following steps of the
-process complete and be ready to step in where appropriate. Better to even
-transition to reviewing other PRs immediately after you put one up for review.
+process complete and be ready to step in where appropriate. It's better to move
+to reviewing other PRs immediately after you put one up for review rather than
+immediately picking up another ticket to move "In progress".
 
 I'm also a big fan of _locally conducted PR reviews (LCPR)_, which involve
 pulling down PR branches to your own machine and reviewing the changes within
@@ -366,29 +371,32 @@ self, which has the magical effect of making them far more aware of the actual
 cost-benefits of their suggestions.
 
 
-### Regular tool adoption
+### Regulate tool adoption
 
 Newsflash, things change a lot in the JavaScript and React ecosystem. Not quite
 as much as they were circa 2014-17, but they still move at an impressively
 daunting speed. Part of our job is staying on-top-of new developments in the
 ecosystem, porting the useful ones to our application, and generally keeping our
-application well-positioned the ever-changing and shifting terrain.
+application well-positioned in the ever-changing and shifting terrain.
+
+#### The Risk of Ecosystem Shifts
 
 "Bit rot" has long been derided as myth, but engineers should be wary before
 dismissing it out of hand. While nothing may be physically rotting in your
-computer's memory or storage, the ecosystem is constantly shifting. The real
-risk for a React application becoming stale is it's dependencies becoming
-out-of-date and eventually unavailable. This could be styling and component
-libraries, build tooling, API querying and caching tools, test runners, linters
-and formatters, typescript, or Node.js itself.
+computer's memory or storage, the ecosystem around it is constantly shifting.
+The real risk for a React application becoming stale is it's dependencies
+becoming out-of-date and eventually unavailable. This could be styling and
+component libraries, state management libraries, build tooling, API querying and
+caching tools, test runners, linters and formatters, typescript, or Node.js
+itself.
 
 The real risk isn't that those things randomly stop working, because as long as
-the correct version of everything remains available (which, as we learned from
-the
+the correct version of everything remains available the code will still build
+and run (although the
 [left-pad](https://qz.com/646467/how-one-programmer-broke-the-internet-by-deleting-a-tiny-piece-of-code/)
-debacle isn't necessarily a safe assumption) the code will still build and run.
-BUT, the moment you want to change something, each change causes larger ripples
-of changes throughout the app. If you update one library with a critical bug or
+debacle showed us that isn't necessarily a safe assumption). BUT, the moment you
+want to change something, each change causes larger ripples of changes
+throughout the app. If you update one library with a critical bug or
 vulnerability, all of a sudden you break several other libraries that depend on
 it and need updated themselves. Down the rabbit hole you go. Then, before you
 know it, what would have been a trivial change 4 years ago takes you a week now
@@ -405,9 +413,11 @@ much of our community content is published by amateur writers in their spare
 time, it's a common occurrence that blog posts simply disappear after a few
 years.
 
+#### Your responsibility to navigate the shifts
+
 Your job at work is to ensure that doesn't happen to the company application on
 your watch. Which means that you need to build into your project time and
-manpower to routinely updating and refactoring the code base to keep it
+manpower to routinely be updating and refactoring the code base to keep it
 positioned within the center of the ecosystem.
 
 On the other hand, you need to balance this pull with a crystal clear
