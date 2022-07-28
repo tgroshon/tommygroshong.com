@@ -50,9 +50,9 @@ contribute to pulling the final velocity result down:
   - Are engineers (especially the most experienced ones) spending too much time in meetings?
     + Cut and combine meetings
     + Require all meetings to have an agenda
-    + Pare invite lists down to the most essential particpants, and mark everyone else as optional
+    + Pare invite lists down to the most essential participants, and mark everyone else as optional
   - Are task and story estimates routinely too low?
-    + Ensure tasks are well-defined at the time they're estimated with an explicit description of it's scope
+    + Ensure tasks are well-defined at the time they're estimated with an explicit description of its scope
     + Ensure there is a shared definition and standard for estimation; perhaps different people
       include or exclude different parts of the development process when estimating
     + Ensure the people executing a task are the ones estimating it
@@ -65,7 +65,7 @@ contribute to pulling the final velocity result down:
  
 The goal is to identify something that could be better, find a metric that
 measures it, and then dig into the behavior to discover the underlying behaviors
-that effect that metric.
+that affect that metric.
 
 Note of caution: you get what you measure. Metrics are a double-edged blade,
 cutting in both directions. When you put emphasis on a metric, you are putting
