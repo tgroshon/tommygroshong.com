@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tgroshon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tommygroshong.com
+  * I am tgroshon (https://keybase.io/tgroshon) on keybase.
+  * I have a public key ASBVZi_3IeQRWY7GhSLiKJGT3I8xO2jWfkt4SKD45D0DMAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018ff0577906c3e849eede8a47c568ea29bbe0b90a9d1eb9bec3e87ce539127af00a",
+      "host": "keybase.io",
+      "kid": "012055662ff721e411598ec68522e2289193dc8f313b68d67e4b7848a0f8e43d03300a",
+      "uid": "d9193de3b5e58573ac3f62b8e279e200",
+      "username": "tgroshon"
+    },
+    "merkle_root": {
+      "ctime": 1674592424,
+      "hash": "760ee2db4f4a6a375dcaffd157f3f57431fd27a3cd33f4cdfca68ad99ae321611adcd3d43c003ab1176808e091b1c1d3bf01b0a0d1fc810bd5cd0fec3aefd1b9",
+      "hash_meta": "8d54ae55657d449f8a31dbe56dedbab53d11634816919985dea935501f410ffe",
+      "seqno": 23922926
+    },
+    "service": {
+      "entropy": "Wbl0Mta7ik5oXDgv89SVv8OM",
+      "hostname": "tommygroshong.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1674592441,
+  "expire_in": 504576000,
+  "prev": "bade1bd21be423658fac524fe22746803ecece939b7c16f426576a80a0ed0c78",
+  "seqno": 150,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgVWYv9yHkEVmOxoUi4iiRk9yPMTto1n5LeEig+OQ9AzAKp3BheWxvYWTES5cCzJbEILreG9Ib5CNlj6xST+InRoA+zs6Tm3wW9CZXaoCg7Qx4xCBEPC3NCnGbDsvCmQ/PQKJReqV70AqWMybW0URf8BG6aQIBwqNzaWfEQBiVVXd2BZEt1kgJidTQa4LMCM5EMsv9mYma2+YvhaAIqoBZHnlsFTe/N/DVEX4EBBLvR4EjyL9IwMb/sTq8ZQOoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBlpOm/KUPnznPpql4fIKvyjtXbjLtsKs1w6ssmmwCJ6KN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tgroshon
+
+==================================================================
