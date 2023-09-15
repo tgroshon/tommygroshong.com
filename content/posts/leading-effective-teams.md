@@ -3,7 +3,6 @@ title: Leading Effective React Teams
 date: 2022-07-27
 description: "What does it mean for a React team to be productive and effective?"
 categories:
-  - JavaScript
   - Web Development
   - Management
 tags:
@@ -25,7 +24,7 @@ where I analyze the things that make an Application "good".
 2. Cultivate collaboration
 3. Invest in testing
 4. Enrich the developer experience
-5. Manage projects with agility 
+5. Manage projects with agility
 6. Regulate tool adoption
 
 ### Evaluate performance
@@ -62,7 +61,7 @@ contribute to pulling the final velocity result down:
     + Never skip sprint retrospectives; use them to identify action items to address systemic blockers
     + Clarify an explicit *Blocker Escalation Process* so that engineers know how and when to raise issues
     + Focus daily standup meetings on identifying and resolving blockers and questions rather than rote status updates
- 
+
 The goal is to identify something that could be better, find a metric that
 measures it, and then dig into the behavior to discover the underlying behaviors
 that affect that metric.
@@ -141,7 +140,7 @@ space for them to use team understood technical or project jargon, brainstorm
 ideas that aren't ready for external adoption or follow-up, and generally
 experience togetherness and companionship as a team. This is the channel for all
 your cat memes where you don't have to worry about the boss judging your
-comedic tastes. 
+comedic tastes.
 
 Within these two channels, all project and team coordination occurs. Need to ask
 a specific team member a question about a ticket or some React Component?

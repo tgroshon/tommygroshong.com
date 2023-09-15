@@ -3,7 +3,6 @@ title: Tommy's Dope React (TDR) Project Layout
 date: 2021-11-16
 description: "Wondering how to layout your React project? Tommy shares his Project Layout to help prioritize file organizing patterns conducive to refactoring, hiding implementation details, and growing with your project."
 categories:
-  - JavaScript
   - Web Development
 tags:
   - React

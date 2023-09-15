@@ -3,7 +3,6 @@ title: "Conditional Rendering Tactics for React Components"
 description: "A simple exploration and comparison of two tactics for handling conditionally rendering components in React."
 date: 2020-02-03T20:44:15-04:00
 categories:
-  - JavaScript
   - Web Development
 tags:
   - React

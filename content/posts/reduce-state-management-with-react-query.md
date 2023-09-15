@@ -3,7 +3,6 @@ title: Reduce State Management Footprint with React Query
 date: 2021-05-26
 description: "State management got you down? Miss the days when your React application was simple and fun? Use React Query and say goodbye to all that pesky cognitive overload."
 categories:
-  - JavaScript
   - Web Development
 tags:
   - React

@@ -2,7 +2,6 @@
 title: "A Model View Controller Pattern for React"
 date: 2019-11-06T20:44:15-04:00
 categories:
-  - JavaScript
   - Web Development
 tags:
   - React

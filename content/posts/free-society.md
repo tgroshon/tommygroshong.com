@@ -2,11 +2,12 @@
 title: "Free Society"
 date: 2021-07-27T09:50:10-04:00
 draft: true
+categories:
+- Politics
 ---
 
-
 Over the last few weeks, I've been reading _[The Anarchist
-Handbook](http://anarchisthandbook.com)_ by Michael Malice and I strongly 
+Handbook](http://anarchisthandbook.com)_ by Michael Malice and I strongly
 recommend it. The book is a collection of anarchist and libertarian writings,
 modern and historical, discussing the ideas of free and decentralized society.
 

@@ -3,7 +3,6 @@ title: Good Software from the Software Engineer's Perspective
 date: 2022-07-26
 description: "What does it mean for software to be good? Some of the attributes that make software good are within the control of engineers, but others clearly are not. What's the difference? How can engineers maximize their contribution to a software project and make it good?"
 categories:
-  - JavaScript
   - Web Development
   - Management
 tags:
@@ -38,7 +37,7 @@ and judgment while working tirelessly to observe customer behavior and collect
 feedback; which they then communicate to us. Engineers are usually downstream
 the the *Solution* and *Design* process.
 
-Does that mean we ignore *Solution* and *Design* as an external concern? God forbid. 
+Does that mean we ignore *Solution* and *Design* as an external concern? God forbid.
 Because so much of that work happens outside of our view, it represents a huge risk
 of miscommunication and failed hand-offs. One of the most important aspects in
 Agile project management is trying to elevate and streamline communication and
@@ -83,7 +82,7 @@ think of security vulnerabilities and poor performance. These are also defects
 and addressing them is fundamental to *Quality*.
 
 *Quality* in a software application can be improved by (a) better defect discovery
-mechanisms and (b) increasing the standard (i.e. lowering the threshold of tolerable 
+mechanisms and (b) increasing the standard (i.e. lowering the threshold of tolerable
 defects). Better discovery often involves better reporting; chances are good that most
 defects have been discovered by somebody
 
@@ -99,7 +98,7 @@ all the neighboring bad ideas that nested nearby.
 
 Don't ship a feature you know is broken, it will just upset your users when
 they realize it doesn't work. Instead, cut the broken feature from the release until
-it works; i.e. reduce the scope. Don't ship a 1/2 broken feature. Instead, you cut 
+it works; i.e. reduce the scope. Don't ship a 1/2 broken feature. Instead, you cut
 the parts that don't work and ship only the 1/2 that does work;
 i.e. reduce the scope. Ideas that cutting *Quality* can be advantageous for
 short-term scope, time, or resource gain are ridiculous. When *Quality* is on the table,
@@ -142,7 +141,7 @@ Second, testing. Formal testing is certainly one way to discover bugs and
 defects. Manual testing is the prime way to do this because of it's looser and
 often exploratory nature. Automated testing on the other hand will only find
 problems that the Engineer was able to divine through pseudo-precognitive
-abilities. For this reason, automated tests can be an occasionally useful tool 
+abilities. For this reason, automated tests can be an occasionally useful tool
 for *Quality* but it will always be lagging, which limits it's utility.
 
 The tenants of Test Driven Development (TDD) tells us that there's a _difference
@@ -191,9 +190,9 @@ delivery. Here's just a few:
 - Cycle time by developer
 - Downtime during deployment
 
-My favorite is "lead time to production" i.e. "length of time between when a 
-feature is requested and when it's available in production". If *lead time* for 
-the average task on your team is very low (e.g. small number of days), *Delivery* 
+My favorite is "lead time to production" i.e. "length of time between when a
+feature is requested and when it's available in production". If *lead time* for
+the average task on your team is very low (e.g. small number of days), *Delivery*
 is probably doing very well.
 
 But, it's still interesting that while both *Delivery* and *Quality* have

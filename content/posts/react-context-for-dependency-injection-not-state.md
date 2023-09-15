@@ -5,7 +5,6 @@ authors:
   - tommy-groshong
 description: "Dive into the concept that React Context API is primarily a tool for injecting dependencies into a React tree and how we can use that to improve testability, reusability, and maintainability of our apps."
 categories:
-  - JavaScript
   - Web Development
 tags:
   - React
