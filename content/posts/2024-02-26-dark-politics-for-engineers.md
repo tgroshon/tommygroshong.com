@@ -260,7 +260,7 @@ it can be effectively employed in any direction: up, down, lateral.
    - If your _Annual 365 Performance Reviews&tm;_ are addicted to negative feedback,
      they are easy to hijack for Dark Politics.
 
-### Conclusion
+## Conclusion
 
 I'm tired of writing. So, I'm done now.
 
