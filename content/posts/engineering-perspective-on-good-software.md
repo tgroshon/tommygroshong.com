@@ -20,10 +20,9 @@ ordered list of "good software" attributes:
 ## Solution and Design: What we don't control
 
 The _Solution_ and _Design_ are the most visible and obvious parts of "good
-software", and at the end of the day, if they're good enough, they can make up
-for all the following things to a shocking degree. Users will put up with a hell
-of a lot of ugly, stale, slow, and buggy software if it does something they
-vitally need.
+software", and when the chips are down, they can make up for tons of issues to a
+shocking degree. Users will put up with a hell of a lot of ugly, stale, slow,
+and buggy software if it does something they vitally need (see caveat in next section).
 
 In the same way, a beautiful design can paper over a lot of defects and
 performance problems. In the inverse case, few users will appreciate a 3x speed
@@ -35,15 +34,18 @@ As much as we'd like to take credit for those first two attributes, often the
 credit really lies with the designers and product managers exercising experience
 and judgment while working tirelessly to observe customer behavior and collect
 feedback; which they then communicate to us. Engineers are usually downstream
-the the _Solution_ and _Design_ process.
+of the _Solution and Design_ process.
 
-Does that mean we ignore _Solution_ and _Design_ as an external concern? God forbid.
-Because so much of that work happens outside of our view, it represents a huge risk
-of miscommunication and failed hand-offs. One of the most important aspects in
-Agile project management is trying to elevate and streamline communication and
-coordination between Engineering and other teams. Building proactive and
-reactive mechanisms into your process for improving cooridination is crucial to a
-successful team and good software.
+Does that mean we ignore _Solution_ and _Design_ as an external concern?
+
+God forbid.
+
+Because so much of that work happens outside of our view, it represents a huge
+risk of miscommunication and failed hand-offs. One of the good themes that was
+elevated by Agile project management _improving communication and coordination_
+between Engineering and other teams. Building both proactive and reactive
+mechanisms into your process for improving coordination is crucial to a
+successful team, and to good software.
 
 ## Quality and Delivery: What we do control
 
@@ -53,16 +55,16 @@ earlier about users putting up with shitty software if it looks good enough or
 if it solves an important enough problem, which is all still theoretically true
 but practical reality has something else to say:
 
-> The software ecosystem is so saturated with applications and competititors
-> that the likelihood that any one application is the only or best solution to
-> any particular problem is exceptionally low.
+_The software ecosystem is so saturated with competition that it is
+**exceptionally unlikely** that any one application is the best or only solution to
+any particular problem._
 
 Most applications aren't solving important or unique enough problems to get away
 with all that much. This is especially true in consumer software; less true in
-business software, but the gap between business and consumer software is closing
-each year. In this way, competition is doing exactly what a market enthusiast would
-expect: competition is driving down customer tolerance for poor quality and the
-length of time they are willing to tolerate it.
+business software, but the gap between business and consumer software is
+continually reducing. In this way, competition is doing exactly what a market
+enthusiast would expect: driving down customer tolerance for poor quality and
+the length of time they are willing to tolerate it.
 
 ### Quality and it's nuances
 
@@ -95,13 +97,18 @@ change? Hell no. This is a foolish notion and Software Engineers (and especially
 their managers), should expunge it from their brains so fast that it dislodges
 all the neighboring bad ideas that nested nearby.
 
-Don't ship a feature you know is broken, it will just upset your users when
-they realize it doesn't work. Instead, cut the broken feature from the release until
-it works; i.e. reduce the scope. Don't ship a 1/2 broken feature. Instead, you cut
-the parts that don't work and ship only the 1/2 that does work;
-i.e. reduce the scope. Ideas that cutting _Quality_ can be advantageous for
-short-term scope, time, or resource gain are ridiculous. When _Quality_ is on the table,
-the lever you should be adjusting is scope.
+Do not _sacrifice quality_ by shipping a feature you know is broken. There is no
+upside, but plenty of downside. It will only upset your users when they realize
+it doesn't work. Instead, delay the feature's release; i.e. reduce the scope. In
+practice this can take many forms: delay the whole release, continue the release
+but with that feature removed, or hiding the feature behind a flag or UI
+mechanism.
+
+The idea that cutting _Quality_ can be advantageous for short-term gains in
+scope/time/resources is ridiculous. 
+
+When someone thinks _Quality_ is on the table, the lever they should actually be
+adjusting is _Scope_.
 
 ### Delivery: The Magic Unicorn
 
