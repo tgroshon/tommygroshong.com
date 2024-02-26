@@ -35,6 +35,7 @@ political trust to them. We do not always have good and wise leaders. (left as
 an exercise to the reader to derive this fact)
 
 > You: "I am not interested in politics."
+>
 > Universe: "Well, politics is very interested in you."
 
 Corporate politics done ethically toward productivity gets good projects
@@ -49,6 +50,7 @@ You can think of politics, like _The Force_, as having both light and dark
 sides:
 
 > Luke: "Is the dark side stronger?"
+>
 > Yoda: "No, no no. Quicker, easier, more seductive."
 
 (For years, I thought Yoda said "more destructive" instead of "more seductive".
@@ -194,18 +196,20 @@ Good software:
 contextual to the specific people actually involved.
 
 The key to _technical disparagement_ is that it is biased and faux-scientific.
-When Done Right&tm;, it has superficial objectivity and impartiality, but is
+When **Done Right™**, it has superficial objectivity and impartiality, but is
 suspiciously lacking in context and dishonest about either tradeoffs,
 subjectivity, or both.
 
 Warning flags:
 
 - Overwhelming jargon usage
-- Blame shifting
-- Copius _nitpicks_ on code reviews:
-  - 30x "whitespace problem here"
-  - "This is a code smell"
-  - "This could be cleaner"
+- Shifting blame off themselves
+- [Bullshit Firehose](https://en.wikipedia.org/wiki/Firehose_of_falsehood) (overwhelming the
+  hearer with an excessive number of poor arguments)
+
+Code Reviews are a fantastical place to see technical disparagement, as the
+contestants hide personal attacks behind gossamer veils of "this is a code
+smell", "can't this be cleaner?", 30x "whitespace problem here".
 
 As well, _technical disparagement_ doesn't require the attacker to be more
 technically competent than the victim. Once any person in any technical-role
@@ -257,7 +261,7 @@ it can be effectively employed in any direction: up, down, lateral.
 1. Suffer not the toxic process to live.
    - If your code reviews are habitually nitpicky and cursed, it would be
      better to do away with them completely.
-   - If your _Annual 365 Performance Reviews&tm;_ are addicted to negative feedback,
+   - If your _Annual 365 Performance Reviews™_ are addicted to negative feedback,
      they are easy to hijack for Dark Politics.
 
 ## Conclusion
