@@ -3,8 +3,9 @@ title: "Dark Politics for Engineers: Part 1"
 date: 2024-02-26T10:17:32-05:00
 description: "Corporate politics done ethically gets good projects approved and deserving people promoted. Done unethically yields the contemptible opposites. Politics has both it's light and it's dark sides. Let's talk about Dark Politics in Software Organizations and how it is likely to manifest."
 categories:
-  - Web Development
   - Management
+  - Politics
+  - Programming
 ---
 
 > "Put your sword back into its place. For all who take the sword will perish by
