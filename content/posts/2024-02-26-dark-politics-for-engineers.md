@@ -1,6 +1,10 @@
 ---
-title: "Dark Politics for Engineers"
+title: "Dark Politics for Engineers: Part 1"
 date: 2024-02-26T10:17:32-05:00
+description: "Corporate politics done ethically gets good projects approved and deserving people promoted. Done unethically yields the contemptible opposites. Politics has both it's light and it's dark sides. Let's talk about Dark Politics in Software Organizations and how it is likely to manifest."
+categories:
+  - Web Development
+  - Management
 ---
 
 > "Put your sword back into its place. For all who take the sword will perish by
@@ -264,4 +268,5 @@ Don't be evil at work.
 
 ## Links
 
-- Harvard Business Review; ["You can't Sit Out Office Politics"](https://hbr.org/2021/07/you-cant-sit-out-office-politics)
+- My prior article ["Good Software: The Engineer's Perspective"](https://tommygroshong.com/posts/engineering-perspective-on-good-software/)
+- Harvard Business Review: ["You can't Sit Out Office Politics"](https://hbr.org/2021/07/you-cant-sit-out-office-politics)
