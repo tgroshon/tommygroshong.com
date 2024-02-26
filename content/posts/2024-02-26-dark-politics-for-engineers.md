@@ -21,19 +21,19 @@ the workplace.
 To double-down on this: politics is _always_ the exercise of power and
 authority. Not sometimes. _Always_.
 
-Politics is neither _good_ nor _evil_; but it can achieve both.
+Politics is neither _good_ nor _evil_; but it can achieve both. Politics is a
+agent of work and change. Productive in harnessed application but destructive in
+unchecked liberation.
 
-Politics is fire. Productive in harnessed application. Destructive in unchecked
-liberation. Always powerful.
-
-And, importantly, you _cannot escape_ politics. You can choose not to play, but
+But, importantly, you _cannot escape politics_. You can choose not to play, but
 all that does is cede the power and decisions of how to employ it to someone
 else. Power and authority will still exist and be exercised to shape your
 experience.
 
 If you have good and wise leaders, you may be happy and secure in ceding your
 political trust to them. We do not always have good and wise leaders. (left as
-an exercise to the reader to derive this fact)
+an exercise to the reader to derive this fact). The onus is on you to understand
+what is going on, and how to deal with it.
 
 > You: "I am not interested in politics."
 >
@@ -68,9 +68,9 @@ A strategy is a high-level, long-term goal and plan of action to achieve it:
 
 These tend to be pretty broad and universal things like the following:
 
-1. Get promotions you do not deserve
-2. Get ideas approved that are bad
-3. Get rid of people you do not like
+1. Get promotions you do not deserve.
+2. Get your ideas approved even when they are bad.
+3. Get rid of people you do not like, because you do not like them.
 
 We will not spend time on these, as they tend to be motivationally self-evident
 and, bluntly, everyone has both witnessed one or more of these first-hand, and
@@ -82,7 +82,10 @@ the lure of them in their own lives.
 In contrast, tactics are small-level procedures and practices to achieve
 immediate short-term goals: "on the ground" Sergeant/NCO stuff.
 
-I will address two today.
+I will address only a few today.
+
+1. Character assassination
+2. Technical Disparagement
 
 ### 1. Character Assassination
 
@@ -228,7 +231,7 @@ it can be effectively employed in any direction: up, down, lateral.
 - The aggressively ambitious manager who erroneously heaps blame on another
   team for slowing them down, hoping to shift criticism off themselves.
 
-### Solutions to Character Assassinations and Technical Disparagements
+### Solutions
 
 1. Recognize Drama and your role in it
    - Are you instigating?
