@@ -227,4 +227,4 @@ Every effort to improve the process of creating good software should map to one 
    C. Decrease lead time of tasks by improving the software design so that changes take less time
 
 So yeah. Give this a think over. Reach me at
-[@tgroshon](https://twitter.com/tgroshon) on Twitter.
+[@TommyGroshong](https://twitter.com/TommyGroshong) on Twitter.

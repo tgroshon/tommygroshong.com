@@ -247,4 +247,4 @@ esoteric cases, but hopefully it gives you enough of a starting point that you
 can make those decisions with confidence.
 
 So give it a shot, and let me know what you think. Reach me at
-[@tgroshon](https://twitter.com/tgroshon) on Twitter.
+[@TommyGroshong](https://twitter.com/TommyGroshong) on Twitter.
