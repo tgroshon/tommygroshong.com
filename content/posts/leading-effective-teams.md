@@ -1,7 +1,7 @@
 ---
-title: Leading Effective React Teams
+title: Leading Effective Software Teams
 date: 2022-07-27
-description: "What does it mean for a React team to be productive and effective?"
+description: "What does it mean for a software engineering team to be productive and effective?"
 categories:
   - Web Development
   - Management
@@ -10,13 +10,13 @@ tags:
 ---
 ## Introduction
 
-What does it mean for a React team to be effective? Productive? Happy?
-Impactful? Since moving back into management after a several year hiatus, this
-has been on my mind a lot. I've begun to collect my thoughts into this post.
+What does it mean for a Software Engineering team to be effective? Productive?
+Happy? Impactful? This has been on my mind a lot as I've stepped into management
+in this part of my career. I've begun to collect my thoughts into this post.
 Many of the ideas apply to projects of any kind, but some of the advice I'll
-give will be tailored specifically to React projects and teams. Many of the
-ideas here build off of this earlier article ["Good Software from the Software
-Engineer's
+give will be tailored specifically to software projects projects and teams. Many
+of the ideas here build off of this earlier article ["Good Software from the
+Software Engineer's
 Perspective"](https://tommygroshong.com/posts/engineering-perspective-on-good-software/)
 where I analyze the things that make an Application "good".
 
@@ -104,8 +104,7 @@ comfortable.
 experience, you can ask all the little nitty gritty questions that come up
 during the work but that you never remember by tomorrow's daily standup or next
 week's manager 1:1. This is valuable not only to the newbie but also to the
-long-time team member just stepping into a new tree of React components that
-they hadn't ever worked on.
+long-time team member just stepping into a new project.
 
 I've found it useful to set team goals and follow-up plans when introducing or
 increasing the amount of pair programming on a team. Setting daily targets of 30
@@ -143,7 +142,7 @@ your cat memes where you don't have to worry about the boss judging your
 comedic tastes.
 
 Within these two channels, all project and team coordination occurs. Need to ask
-a specific team member a question about a ticket or some React Component?
+a specific team member a question about a ticket or some code block?
 Mention them in private chat and start a threaded conversation. In this way,
 other team members have the opportunity to jump in or to simply be edified by
 just reading the discussion. Do you start that question in public or private
@@ -183,36 +182,37 @@ Perspective"](https://tommygroshong.com/posts/engineering-perspective-on-good-so
 > immediate feedback while taking the viewpoint of the consumer of the API, rather
 > than only as it's author.
 
-First rule of testing in React: component tests aren't unit tests, they're
-integration tests. I will die on this hill. React component tests are
-Integration tests. Period. Full stop.
+Let's use a React JavaScript/TypeScript project as an example here to be
+concrete about some approaches.
 
 If you want good unit tests in your React project, it presupposes that you
-extracted code out of your React layer so it can be separately designed and
-tested. I'll go further and say you should intend to pull as much logic out of
+extracted code out of your React (UI) layer so it can be separately designed and
+tested. I'll go further and say you should intend to pull _as much logic out_ of
 your React layer as possible. Do it 'til it hurts. This includes pulling logic
 and code out of Components, Hooks, and Context Providers. With the logic outside
-of React, you can truly _unit test_ it and focus on making a good design and
-modeling of your problem domain. Again, your goal with unit tests of this code
-is more than to just verify the behavior. The tests are also helping you refine
-your API and providing scenario based documentation for the code under test.
+of your React UI layer, you can truly _unit test_ it and focus on making a good
+design and modeling of your problem domain. Again, your goal with unit tests of
+this code is more than to just verify the behavior. The tests are also helping
+you refine your API and providing scenario based documentation for the code
+under test.
 
-Your React Component tests, which you're writing with [React Testing
+Your React Component tests, (which you're writing with [React Testing
 Library](https://testing-library.com/docs/react-testing-library/intro/) and
-trying to model after real user interactions (right?!), are your integration
-tests and that's where you can do your real verification of features and low-key
-user flow verification. Remember, the goal here is to see how things interact,
-so you want to mock some things, but not everything. Remember, these aren't unit
-tests. You shouldn't be intending to test a component in total isolation.
-Instead, your goal should be verifying this Component with all of it's
-collaborators is behaving as intended.
+trying to model after real user interactions, right?!), are your integration
+tests. This is where you can do serious verification of features and basic user
+workflow verification. Remember, the goal here is to see how things interact, so
+you want to mock some things, but not everything. Remember, these aren't unit
+tests. You shouldn't be intending to test a UI or system component in total
+isolation. Instead, your goal should be verifying this component with as many of
+it's collaborators as possible, is behaving as intended.
 
-End-to-end tests I'll just mention briefly as a good tool for validating the
-application as a whole, especially during important checkpoints such as pre- or
-post-deploy. These tests shouldn't mock hardly anything. They are probably
-written in Selenium or Cypress. Don't try to test too much with these tests
-because they are slow to write and to run. Use them for broad strokes
-verification of key workflows.
+End-to-end tests are an excelelnt tool for validating the application as a
+whole, especially during important checkpoints such as pre- or post-deploy.
+These tests should rarely mock anything. They are probably written in Selenium
+or Cypress. They are high-fidelity, but very slow, brittle, and finicky. Don't
+overinvest your testing here as they are slowest to write and slowest to run,
+but don't neglect them either, because they provide the richest set of data. Use
+them for broad strokes verification of a few key workflows.
 
 ### Enrich Developer Experience (DevEx)
 
@@ -372,22 +372,27 @@ cost-benefits of their suggestions.
 
 ### Regulate tool adoption
 
-Newsflash, things change a lot in the JavaScript and React ecosystem. Not quite
-as much as they were circa 2014-17, but they still move at an impressively
-daunting speed. Part of our job is staying on-top-of new developments in the
-ecosystem, porting the useful ones to our application, and generally keeping our
-application well-positioned in the ever-changing and shifting terrain.
+Using the Web, JavaScript, and React ecosystems as concrete examples again, any
+observer can see that the pace of change is immense. Not quite as much as they
+were circa 2014-17, but they still move at an impressively daunting speed. In
+the last 2 years, we've also seen Machine/Deep Learning and Artificial
+Intelligence tooling and systems explode in number and popularity. 
+
+Part of your job is staying on-top-of new developments in the ecosystem, porting
+the useful ones to your application, and generally keeping your application
+well-positioned in the ever-changing and shifting terrain. This is difficult
+work, fraught with opportunities to lose yourself in noise and hype.
 
 #### The Risk of Ecosystem Shifts
 
 "Bit rot" has long been derided as myth, but engineers should be wary before
 dismissing it out of hand. While nothing may be physically rotting in your
 computer's memory or storage, the ecosystem around it is constantly shifting.
-The real risk for a React application becoming stale is it's dependencies
-becoming out-of-date and eventually unavailable. This could be styling and
-component libraries, state management libraries, build tooling, API querying and
-caching tools, test runners, linters and formatters, typescript, or Node.js
-itself.
+Consider the very real risk of a React application becoming stale by it's
+dependencies becoming out-of-date (or worse, unavailable). This could be
+styling and component libraries, state management libraries, build tooling, API
+querying and caching tools, test runners, linters and formatters, typescript, or
+Node.js itself.
 
 The real risk isn't that those things randomly stop working, because as long as
 the correct version of everything remains available the code will still build
@@ -420,11 +425,12 @@ manpower to routinely be updating and refactoring the code base to keep it
 positioned within the center of the ecosystem.
 
 On the other hand, you need to balance this pull with a crystal clear
-understanding that there's a lot of unnecessary churn in React-land that is
-irrelevant in the long-term, and not waste time chasing every new fad and
-incorporating every new tool or library just because it _might_ be a big deal.
-Thus, this section is called "regulate tool adoption" because you need to find
-the right balance and internal regulation for how you approach adopting new tools.
+understanding that all ecosystems climbing to the apex of their hype cycle will
+experience a degree of churn that is irrelevant in the long-term, and not waste
+time chasing every new fad and incorporating every new tool or library just
+because it _might_ be a big deal. Thus, this section is called "regulate tool
+adoption" because you need to find the right balance and internal regulation for
+how you approach adopting new tools.
 
 One suggestion that I'll give is to always require that any new tool or library
 that's added to the project should have a pre-requisite of a clear and
@@ -438,6 +444,5 @@ starting, and start finishing.
 
 ## Conclusion
 
-So yeah. That's my initial thoughts after getting back on the React team
-management bandwagon these last few months. Give them a think over. Reach me at
-[@tgroshon](https://twitter.com/tgroshon) on Twitter.
+Give these thoughts a think. Reach me at
+[@TommyGroshong](https://twitter.com/TommyGroshong) on Twitter.
