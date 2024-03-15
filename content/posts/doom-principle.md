@@ -1,7 +1,7 @@
 ---
 title: Is there a Generic "Doom Principle" of Programming Patterns?
 date: 2021-12-14
-description: "The Doom Principle: some patterns will somehow, sometime, inevitably lead to doom, always. So what are they?  That's the million dollar question."
+description: "The Doom Principle: some patterns will somehow, inevitably lead to doom."
 categories:
   - Programming
 ---
@@ -38,11 +38,12 @@ applicable to most programming, not just cryptography.
 
 Consider this generalization:
 
-> "Some patterns will somehow, sometime, inevitably lead to doom, always."
+> "Some patterns will somehow, inevitably lead to doom."
 
-There's some subtly here. As I see it, the primary risk of such a Doomed Pattern
-is not that it will fail in every use case, but rather that the pattern will
-eventually and inevitably be at the root of one or more spectacular failures.
+There's some subtlety here. As I see it, the primary risk of such a Doomed
+Pattern is not that it will fail in every use case, but rather that the pattern
+will _eventually and inevitably_ be at the root of one or more spectacular
+failures.
 
 The Doom Principle sits at the nexus of "Code Smells" and "Tech Debt". The
 reason we care about identifying "smelly code" is because we're implicitly
@@ -53,7 +54,8 @@ smell is broader and a little more superficial. A Doomed Pattern on the other
 hand operates more at the level of "if there's smoke there's fire" or "rotting
 fish smell equals a rotting fish".
 
-I look at the Java ecosystem and interpret the world as follows:
+One way to interpret the Security Exploit History of the Java Runtime
+Environment is as follows:
 
 > **Java**: "We have shipped this awesome ecosystem of tools to make dynamic code
 > discovery, loading, and execution across networks and organizations easy!"
