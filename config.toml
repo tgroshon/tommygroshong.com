@@ -1,61 +1,66 @@
 baseurl = "https://tommygroshong.com/"
 title = "TommyGroshong.com"
-theme = "whiteplain"
+theme = "PaperMod"
 languageCode = "en"
 pygmentsCodeFences = true
-disqusShortname = "tommygroshong"
+# disqusShortname = "tommygroshong"
 googleAnalytics = "UA-47053669-1"
+
+[services]
+[services.disqus]
+shortname = "tommygroshong"
 
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright 2019 Thomas Groshong Jr"
 
 [params]
-  # whether to use CDN or local file for fontawesome
-  #useCDN = false
-  # whether to include external sharing scripts and icons for twitter, facebook and co.
-  #showShareIcons = false
-  # Date format
-  dateFormat = "January 2, 2006"
+# whether to use CDN or local file for fontawesome
+#useCDN = false
+# whether to include external sharing scripts and icons for twitter, facebook and co.
+#showShareIcons = false
+# Date format
+dateFormat = "January 2, 2006"
 
 [params.author]
-  name = "Tommy Groshong"
-  gravatar = "3ef06d69d25df6c31fb095cfc6b08178"
+name = "Tommy Groshong"
+gravatar = "3ef06d69d25df6c31fb095cfc6b08178"
 
-  twitter = "TommyGroshong"
-  linkedin = "thomas-groshong-2b23aa28"
-  github = "tgroshon"
-  stackoverflow = "2631962"
-  email = "tom@groshong.software"
+twitter = "TommyGroshong"
+linkedin = "thomas-groshong-2b23aa28"
+github = "tgroshon"
+stackoverflow = "2631962"
+email = "tom@groshong.software"
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+category = "categories"
+tag = "tags"
+series = "series"
 
 [[menu.main]]
-  name = "Categories"
-  identifier = "categories"
-  url = "/categories/"
-  weight = 1
+name = "Categories"
+identifier = "categories"
+url = "/categories/"
+weight = 1
 [[menu.main]]
-  name = "Tags"
-  identifier = "tags"
-  url = "/tags/"
-  weight = 2
+name = "Tags"
+identifier = "tags"
+url = "/tags/"
+weight = 2
 [[menu.main]]
-  name = "Archives"
-  identifier = "archives"
-  url = "/archives/"
-  weight = 3
+name = "Archives"
+identifier = "archives"
+url = "/archives/"
+weight = 3
 [[menu.main]]
-  name = "About"
-  identifier = "about"
-  url = "/about/"
-  weight = 1
+name = "About"
+identifier = "about"
+url = "/about/"
+weight = 1
 
 # Footer Menu
 [[menu.footer]]
-  name = "About"
-  weight = 1
-  identifier = "about"
-  url = "/about/"
+name = "About"
+weight = 1
+identifier = "about"
+url = "/about/"
+
