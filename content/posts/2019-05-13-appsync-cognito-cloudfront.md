@@ -20,7 +20,7 @@ what's the best way? You can make that work with API Gateway but it's a little c
 in implementing a super Lambda function that contains all your GraphQL resolver logic.
 
 Lucky us! AWS has a GraphQL specific API proxy called AppSync. Last month, I did an
-[article overviewing AppSync]({{< ref "aws-appsync.md" >}}) and concluded I would try it out on an upcoming
+[article overviewing AppSync](https://tommygroshong.com/posts/2019-04-11-aws-appsync/) and concluded I would try it out on an upcoming
 project. Well dear reader, I have done it and now I am bringing you my results!
 
 ## Starting with AWS Amplify ##
