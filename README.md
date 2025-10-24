@@ -4,6 +4,10 @@ Static blog site built with hugo.
 
 ## Commands
 
+### Install
+
+Install hugo: https://gohugo.io/installation/linux/#repository-packages
+
 ### Build
 
 `$ hugo`
