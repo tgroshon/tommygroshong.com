@@ -27,10 +27,10 @@ and buggy software if it does something they vitally need (see caveat in next se
 In the same way, a beautiful design can paper over a lot of defects and
 performance problems. In the inverse case, few users will appreciate a 3x speed
 improvement, an objectively phenomenal improvement, if it's made to the same
-ugly, tired UI; and the violin playing crickets are the only audience for a
-beautiful defect-free application that nobody needs or wants.
+ugly, tired UI; and nobody cares if an application is
+beautiful and defect-free if nobody needs, uses, or wants.
 
-As much as we'd like to take credit for those first two attributes, often the
+As much as we'd like to take credit for these first two attributes, often the
 credit really lies with the designers and product managers exercising experience
 and judgment while working tirelessly to observe customer behavior and collect
 feedback; which they then communicate to us. Engineers are usually downstream
@@ -41,11 +41,19 @@ Does that mean we ignore _Solution_ and _Design_ as an external concern?
 God forbid.
 
 Because so much of that work happens outside of our view, it represents a huge
-risk of miscommunication and failed hand-offs. One of the good themes that was
-elevated by Agile project management _improving communication and coordination_
-between Engineering and other teams. Building both proactive and reactive
-mechanisms into your process for improving coordination is crucial to a
-successful team, and to good software.
+risk of miscommunication and failed hand-offs. One of the good themes
+elevated by Agile project management was the need to _improve communication and coordination_
+between Engineering and other teams. 
+
+To cope with these risks, I recommend building proactive and reactive
+mechanisms into your process for improving coordination.
+
+- Proactive mechanisms: how can you align on goals, approach, and outcomes _before_ the knowledge is needed?
+- Reactive mechanisms: how can you get feedback on in-progress or newly delivered work to both
+  check your success and also prepare your follow-up adjustments?
+
+This area of software development is hugely important but largely outside what typical programmers
+are directly influencing, so I won't spend much additional time discussing it here.
 
 ## Quality and Delivery: What we do control
 
@@ -87,6 +95,12 @@ mechanisms and (b) increasing the standard (i.e. lowering the threshold of toler
 defects). Better discovery often involves better reporting; chances are good that most
 defects have been discovered by somebody
 
+Formal testing is certainly one way to discover bugs and
+defects. Manual testing is the prime way to do this because of it's looser and
+often exploratory nature. Automated testing is largely _not_ useful for discovering new bugs,
+but very useful catching regressions. I will argue that automated testing makes a
+relatively small impact on _Quality_, but a very large impact on _Delivery_ in the next section.
+
 In some project management interpretations, _Quality_ is considered to be one of
 a project's available _interrelated constraint levers_ with the big 3: time,
 resources, and scope. Adjust one, and the others are affected. Increase
@@ -110,6 +124,15 @@ scope/time/resources is ridiculous.
 When someone thinks _Quality_ is on the table, the lever they should actually be
 adjusting is _Scope_.
 
+Notice something I have _intentionally_ elided to this point:
+
+_Quality_ has no connection with source code structure, abstractions, or architectures (design patterns).
+
+They are exceptionally important, but not for _Quality_.
+Remember, _Quality_ is an objective measure, but the relevance of the different
+patterns of organizing your source code is subjective. Instead, I posit
+that _design patterns_ are key drivers of _Delivery_.
+
 ### Delivery: The Magic Unicorn
 
 _Delivery_ is an extra special magic unicorn of an attribute. Users care the
@@ -123,41 +146,38 @@ quickly and high value changes delivered slowly are two sides of the same coin
 and result in the same negative consequence: the user becomes frustrated and
 abandons the application.
 
-Notice in the previous section that I didn't connect _Quality_ with anything
-regarding source code structure, abstractions, or architectures; patterns, in
-short. Additionally, I didn't say anything explicit about _testing_ when
-discussing _Quality_. This is also intentional. That doesn't mean those things
-aren't important. They are exceptionally important, but not for _Quality_.
-Again, _Quality_ is an objective measure, but the relevance of the different
-patterns of organizing your source code is purely subjective. Instead, I posit
-that _testing_ and _patterns_ are key drivers of _Delivery_, not _Quality_.
-
-First, code patterns. They exist as mechanisms to help us squishy brained humans
+First, design patterns. They exist as mechanisms to help squishy-brained humans
 make sense of the highly rigid logic of computer programs. Our brains are
 evolved to work well with patterns, and when we can map a difficult problem to
 an existing pattern, or break it down into a collection of patterns, we are
 substantially better able to reason about it; and to alter it to create new
 desired behaviors. The machine does not care about our puny abstractions and
 architectures. The CPU, compiler, and virtual machine are indifferent to the
-best laid plans of IDE's and men. Patterns exist for people. Code patterns exist
-for the mad few we call programmers.
+best laid plans of IDE's and men. Patterns exist for people. 
 
-Second, testing. Formal testing is certainly one way to discover bugs and
-defects. Manual testing is the prime way to do this because of it's looser and
-often exploratory nature. Automated testing on the other hand will only find
-problems that the Engineer was able to divine through pseudo-precognitive
-abilities. For this reason, automated tests can be an occasionally useful tool
-for _Quality_ but it will always be lagging, which limits it's utility.
+Code being _well-designed_ is highly context dependent and directly tied to 
+the subjective interpretation of the team working on that system; what may be easily 
+maintainable for one group of engineers may be unworkable for another group. 
+Human brains don't have identical preferences for patterns, so we should _expect_ 
+engineers to come up with different patterned approaches.
+
+Second, automated testing. Remember, I said that it somewhat impacts _Quality_,
+but largely impacts _Delivery_. Why? Because automated testing becomes a prime
+way to verify, get feedback, and grow confidence on the work being done **now**.
 
 The tenants of Test Driven Development (TDD) tells us that there's a _difference
 in kind_ between "testing for defects" and "testing to drive code design". They
 are not the same thing, even though they may use the same tooling and involve
-similar code. Unit tests in TDD are valuable not because they catch defects, but
+similar code. Unit tests in TDD are valuable not only because they catch defects, but
 because of _**when**_ they can catch defects: in a tight feedback loop of the
 development process at the moment of the pertinent change. Because they are used
-this way, unit tests can enable API experimentation as the Engineer receives
-immediate feedback while taking the viewpoint of the consumer of the API, rather
-than only as it's author.
+this way, unit tests enable many things:
+
+- API experimentation: immediate feedback while taking the viewpoint of the 
+  consumer of the API, rather than only as it's author.
+- Correctness: the code empirically passes the assertions of the given test cases
+- Isolation: your change maintains the existing assertions of the rest of the 
+  system (i.e. your new feature doesn't blow up something in another module)
 
 Next question: what makes well-designed code valuable? We can attack the same
 question backwards by asking: what does it mean for code to be "well-designed"?
@@ -165,30 +185,26 @@ Let's make another list:
 
 - Maintainable
 - Changeable
-- Proveable
 - Discoverable
 - Understandable
 - Efficient (-able?)
 
-Are there objective measures for these things? None that I know of. Maybe some
-for "proveable", but people have designed entire programming languages chasing
-that mythical sasquatch (and they usually only have blurry pictures to show for
-it). Generally, these tend to be subjective things that Engineers _feel_ about
+Are there objective measures for these things? None that I know of.
+Generally, these tend to be subjective things that Engineers _feel_ about
 their code base. They also have very weak connections to the objective
 measurements of _Quality_, which are independent of an Engineer's feelings about
 their code base. I've never met a Senior Engineer who could keep a straight
 place while claiming their application's **Superior Architecture** is why their
-code base is bug-free. These qualities do however have incredibly strong
+code base has so few bugs. These qualities do however have incredibly strong
 connections to the speed and ease of development. That's _Delivery_, baby! We
 care about software design so that we can easily and quickly deliver predictable
 changes to the code.
 
-Now, I have taken a bit of an erroneous logical stance which I'll make a
-handwavy attempt at rectifying. I've hinted (without explicitly stating) that
-_Delivery_ can't be objectively measured. That's untrue. _Delivery_ is
-just as straightforward to objectively measure as _Quality_. The plucky
-Engineering Manager or Scrum Master has an array of metrics available to measure
-delivery. Here's just a few:
+Now, don't be fooled by all that talk about _Delivery_ being subjective 
+means it can't be objectively measured. That's untrue. _Delivery_ can be
+objectively measured, but it's with a different set of tools than the average
+engineer is likely to employ. In fact, Managers (product or engineering)
+have an array of metrics available to measure delivery. Here's just a few:
 
 - Sprint velocity
 - Lead time to production
@@ -196,35 +212,37 @@ delivery. Here's just a few:
 - Downtime during deployment
 
 My favorite is "lead time to production" i.e. "length of time between when a
-feature is requested and when it's available in production". If _lead time_ for
+feature is requested and when it's available in production". If lead time for
 the average task on your team is very low (e.g. small number of days), _Delivery_
 is probably doing very well.
 
-But, it's still interesting that while both _Delivery_ and _Quality_ have
-objective measurements, it's _Delivery_ that is primarily driven by underlying
-subjective attributes. You might be able to argue that _Quality_ is as well, but
-you would have to argue that there's strong subjectivity in the classification
-of a bug or defect, and while that's not a ridiculous stance, I don't think it's
-particularly strong. Software defects are like pornography; hard to define, but
-you know them when you see them. Well-designed code on the other hand is highly
-context dependent and directly tied to the subjective interpretation of the team
-working on that system; what may be easily maintainable for one group of
-engineers may be unworkable for another group. Human brains don't have identical
-preferences for patterns, so we should _expect_ engineers to come up with
-different patterned approaches.
+While both _Delivery_ and _Quality_ have objective measurements, _Delivery's_ 
+metrics are primarily driven by underlying subjective components like code 
+design and maintainability. You might be able to argue that _Quality_ is as well, but
+you would have to argue that there's strong subjectivity in the classification 
+of a bug or defect, but I don't think it's particularly strong. 
+
+Notice that the _objective measurements_ of _Delivery_ are largely gathered and tracked by
+managers, not by engineers, specifically not by those technicians performing the actual work
+of writing software source code. This disconnect is a big risk, and is the primary reason
+why software projects will often devolve into overrun timelines, poor outcomes, and huge
+expense. The subjective decisions of the engineers regarding code design,
+maintainability, changeability, understandability, discoverability, etc. combine to
+drive the objective measurements. Because of this, engineers should be actively involved in
+gathering, tracking, and monitoring those "project managey" measurements.
 
 ## Conclusion
 
 Every effort to improve the process of creating good software should map to one of the following efforts:
 
 1. Indirect Improvements to _Solutions_ and _Design_
-   A. Better communication and coordination mechanisms
-   B. Proactive integration of external work and feedback
-   C. Quick reactions to external changes
+   1. Better communication and coordination mechanisms
+   2. Proactive integration of external work and feedback
+   3. Quick reactions to external changes
 2. Direct Improvements to _Quality_ and _Delivery_
-   A. Improve defect discovery mechanisms
-   B. Increase the standard of quality for the project
-   C. Decrease lead time of tasks by improving the software design so that changes take less time
+   1. Improve defect discovery mechanisms
+   2. Increase the standard of quality for the project
+   3. Decrease lead time of tasks by improving the software design so that changes take less time
 
 So yeah. Give this a think over. Reach me at
 [@TommyGroshong](https://twitter.com/TommyGroshong) on Twitter.
